@@ -19,7 +19,7 @@ public class Data {
             diasPorMes[1] = 29;
         }
         if(mes < 1 || mes > 12 || dia < 1 || dia > diasPorMes[mes - 1]){
-            throw new IllegalArgumentException("Ex04.Data inválida");
+            throw new IllegalArgumentException("Atividades.Ex04.Data inválida");
         }
     }
 }
