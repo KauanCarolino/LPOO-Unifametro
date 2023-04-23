@@ -26,14 +26,10 @@ public class Carro {
         return this.modelo;
     }
 
-    public void setModelo(String modelo){
-        this.modelo = modelo;
-    }
+    public void setModelo(String modelo){ this.modelo = modelo; }
 
 
-    public double getCapacidadeTanque(){
-        return this.capacidadeTanque;
-    }
+    public double getCapacidadeTanque(){ return this.capacidadeTanque; }
 
     public void setCapacidadeTanque(double capacidadeTanque){
         this.capacidadeTanque = capacidadeTanque;
